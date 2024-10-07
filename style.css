@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 16px;  
+}
+body{
+    font-family: Poppins sans-serif;
+    margin:0px;
+    padding:10px;  
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    gap:10px;
+    width:95%;
+    
+}
+#navbar__s1__title{
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.inputbox{
+   border:none;
+   width:60%;
+   font-size: 16px;
+   outline:none;
+   
+}
+
+.navbar__s2{
+    border-radius: 30px;
+    border:solid black 2px;
+    width:60%;
+    display:flex;
+    padding-left: 2px;
+    gap: 2px;
+    height:40%;     
+}
+.navbar__s2 input{
+    width: 50%;
+    height: 35px;
+}
+.navbar__s2 i{
+    margin: 10px 2px 0px 5px;
+}
+.navbar__s3{
+    display: flex;
+    gap:10%;
+    padding:10px;
+}
+.categories{
+    display:flex;
+    justify-content: space-between;
+}
+.categories p{
+    margin:10px;
+    border-radius:30px;
+    padding:10px;
+    background-color: blueviolet;
+    color:white;
+    transition: 0.5s;
+}
+.categories p:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid  black;
+}
+.salesimage img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.recomended_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.course_card{
+    width:250px;
+}
+
+.course_card img{
+    width:250px;
+    height:50%;
+}
+.topics {
+    padding: 10px;
+}
+
+.topics__container {
+    display:flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p {
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one  {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__two   {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular {
+    padding: 10px;   
+}
+
+.popular-course-card 
+{
+    width:25%;
+    height:50%;
+}
+.popular__container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+   
+    justify-content: space-between;
+}
+.course_card_img{
+
+    width:250px;
+    height:50%;
+}
